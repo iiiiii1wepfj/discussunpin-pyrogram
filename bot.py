@@ -17,7 +17,13 @@ async def autopin(Client, Message):
     Message.chat.id
     )
     
+    
+    
+@Client.on_message(filters.private)
+async def privatemsg(client, Message):
+  await  Message.reply("""text""")
 
+    
 
 
 
