@@ -6,8 +6,6 @@ api_id = your api id
 api_hash = 'your api hash'
 token = "bot token"
 
-
-
 Client = Client("unpinbot", api_id, api_hash, bot_token=token)
 
 
@@ -18,13 +16,9 @@ async def autopin(Client, Message):
     )
     
     
-    
 @Client.on_message(filters.private)
 async def privatemsg(client, Message):
   await  Message.reply("""text""")
 
     
-
-
-
 Client.run()
