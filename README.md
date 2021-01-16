@@ -7,11 +7,6 @@ discuss unpin bot in pyrogram
  
  cd discussunpin-pyrogram
  
- virtualenv -p /usr/bin/python3 venv
-
- . ./venv/bin/activate
-
- 
  pip3 install -U -r requirements.txt
  
  edit the api hash and api id and bot token in bot.py
