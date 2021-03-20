@@ -1,5 +1,4 @@
 from pyrogram import Client, filters
-import asyncio
 
 
 api_id = your api id
